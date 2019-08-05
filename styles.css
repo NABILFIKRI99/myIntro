@@ -1,0 +1,205 @@
+body {
+  font-family: 'Montserrat-Black';
+  text-align: center;
+}
+
+#title{
+  background-color: #1e90ff;
+  color: #2f3542;
+  text-align: center;
+}
+
+#pricing{
+padding: 100px;
+text-align: center;
+}
+
+h1{
+  font-family: 'Montserrat-Black', sans-serif;
+  font-size: 3rem;
+  line-height: 1.5;
+  padding-left: 5.5rem;
+  padding-top: 200px
+}
+
+h3{
+  font-family: 'Montserrat-bold';
+}
+
+h2{
+  font-family: 'Montserrat-bold';
+  font-size: 4rem;
+  line-height: 2.5;
+}
+
+p{
+  color: #353b48;
+  margin-top: 0;
+margin-bottom: 0;
+}
+
+.container-fluid{
+  padding: 3% 15%;
+}
+
+.navbar{
+margin: 0.5rem;
+}
+
+.col-lg-6{
+  padding-left: 5.5rem;
+}
+
+.navbar-brand{
+  font-family: 'Ubuntu';
+  font-size: 2.5rem;
+  font-weight:bold;
+}
+
+.nav-item{
+  padding: 0 18px;
+}
+
+.nav-link{
+font-weight: lighter;
+font-family: 'Montserrat-Light';
+}
+
+.download-button{
+  margin-left: 90px;
+  margin-top: 30px;
+}
+
+.image-iphone{
+width: 50%;
+transform: rotate(25deg);
+margin: 50px 1px 1px 100px;
+}
+
+#features{
+  padding: 7% 15%;
+  text-align: center;
+}
+
+#cta{
+text-align: center;
+font-size: 1rem;
+background-color: #3867d6;
+
+}
+
+
+#footer{
+text-align: center;
+background-color: #3867d6;
+margin-top: 0;
+margin-bottom: 0;
+}
+
+.icon{
+  color: #0652DD;
+  margin-bottom: 1rem;
+}
+
+#testimonials{
+  padding: 7% 15%;
+  text-align: center;
+  background-color: #45aaf2;
+}
+
+.imagebaji{
+  border-radius: 100%;
+  width: 15%;
+}
+
+#press{
+  background-color: #45aaf2;
+  padding-bottom: 5%;
+  text-align: center;
+}
+
+.pressimage{
+  width: 10%;
+  margin: 20px 20px 50px;
+}
+
+.imagesyakir{
+  border-radius: 100%;
+  width: 15%;
+}
+
+
+.contact-method{
+  width: 220px;
+  height: 140px;
+  display: inline-block;
+  background: #3498db;
+  margin: 10px;
+  color: #fff;
+  position: relative;
+  cursor: pointer;
+}
+
+.contact-method i{
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  font-size: 30px;
+  line-height: 140px;
+  background: #34495e;
+  z-index: 1;
+  transition: transform 0.6s;
+}
+.contact-method span{
+  position: absolute;
+  width: 100%;
+  left: 0;
+  bottom: 0;
+  padding: 10px 0;
+}
+
+.contact-method:hover i{
+  transform: translateY(-40px);
+}
+
+.container{
+  text-align: center;
+  color: white;
+}
+
+.container p {
+  max-width: 600px;
+  font-size: 15px;
+  font-weight: 300;
+}
+.email-box{
+  height: 40px;
+  justify-content: center;
+  display: flex; /*its better to use inline-flex*/
+}
+.email-box i{
+  background: #2f3542;
+  width: 40px;
+  line-height: 40px;
+}
+.tbox,.btn{
+  border: none;
+  outline: none;
+}
+.tbox{
+  width: 0px;
+  transition: 0.6s;
+}
+.email-box:hover > .tbox,.tbox:focus{
+  width: 260px;
+  padding: 0 10px;
+}
+.btn{
+  background: #2f3542;
+  color: white;
+  padding: 0 10px;
+  text-transform: uppercase;
+  cursor: pointer;
+}
